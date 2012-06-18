@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE rdf:RDF [
+        <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+        <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#">
+        <!ENTITY pronom "http://pronom.nationalarchives.gov.uk/#">
+		<!ENTITY owl "http://www.w3.org/2002/07/owl#">
+]>
+
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:pronom="http://pronom.nationalarchives.gov.uk/#">
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Tagged_Image_File_Format">
+	<pronom:IsSupertypeOf rdf:resource="http://nationalarchives.gov.uk/pronom/Format/609"/>
+	<pronom:IsSupertypeOf rdf:resource="http://nationalarchives.gov.uk/pronom/Format/610"/>
+	<pronom:IsSupertypeOf rdf:resource="http://nationalarchives.gov.uk/pronom/Format/611"/>
+	<pronom:IsSupertypeOf rdf:resource="http://nationalarchives.gov.uk/pronom/Format/612"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://nationalarchives.gov.uk/pronom/Format/612">
+	<pronom:IsSupertypeOf rdf:resource="http://nationalarchives.gov.uk/pronom/Format/795"/> <!-- Adobe DNG -->
+	<pronom:IsSupertypeOf rdf:resource="http://nationalarchives.gov.uk/pronom/Format/796"/> <!-- TIFF/IT -->
+	<pronom:IsSupertypeOf rdf:resource="http://nationalarchives.gov.uk/pronom/Format/797"/> <!-- TIFF/EP -->
+	<pronom:IsSupertypeOf rdf:resource="http://nationalarchives.gov.uk/pronom/Format/798"/> <!--GeoTiff -->
+	<pronom:IsSupertypeOf rdf:resource="http://nationalarchives.gov.uk/pronom/Format/799"/> <!-- TIFF-FX -->
+	<pronom:IsSupertypeOf rdf:resource="http://dbpedia.org/resource/Exchangeable_image_file_format"/> <!-- EXIF -->
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Exchangeable_image_file_format">
+	<pronom:IsSupertypeOf rdf:resource="http://nationalarchives.gov.uk/pronom/Format/752"/> <!-- EXIF 2.0 -->
+	<pronom:IsSupertypeOf rdf:resource="http://nationalarchives.gov.uk/pronom/Format/673"/> <!-- EXIF 2.1 -->
+	<pronom:IsSupertypeOf rdf:resource="http://nationalarchives.gov.uk/pronom/Format/672"/> <!-- EXIF 2.2 -->
+</rdf:Description>
+
+
+
+<rdf:Description rdf:about="http://nationalarchives.gov.uk/pronom/Format/609">
+	<pronom:IsSubtypeOf rdf:resource="http://dbpedia.org/page/Tagged_Image_File_Format"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://nationalarchives.gov.uk/pronom/Format/610">
+	<pronom:IsSubtypeOf rdf:resource="http://dbpedia.org/page/Tagged_Image_File_Format"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://nationalarchives.gov.uk/pronom/Format/611">
+	<pronom:IsSubtypeOf rdf:resource="http://dbpedia.org/page/Tagged_Image_File_Format"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://nationalarchives.gov.uk/pronom/Format/612">
+	<pronom:IsSubtypeOf rdf:resource="http://dbpedia.org/page/Tagged_Image_File_Format"/>
+</rdf:Description>
+
+
+<rdf:Description rdf:about="http://nationalarchives.gov.uk/pronom/Format/795">
+	<pronom:IsSubtypeOf rdf:resource="http://nationalarchives.gov.uk/pronom/Format/612"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://nationalarchives.gov.uk/pronom/Format/796">
+	<pronom:IsSubtypeOf rdf:resource="http://nationalarchives.gov.uk/pronom/Format/612"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://nationalarchives.gov.uk/pronom/Format/797">
+	<pronom:IsSubtypeOf rdf:resource="http://nationalarchives.gov.uk/pronom/Format/612"/>
+	<owl:sameAs rdf:resource="http://dbpedia.org/resource/Tag_Image_File_Format_/_Electronic_Photography"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://nationalarchives.gov.uk/pronom/Format/798">
+	<pronom:IsSubtypeOf rdf:resource="http://nationalarchives.gov.uk/pronom/Format/612"/>
+	<owl:sameAs rdf:resource="http://dbpedia.org/resource/GeoTIFF"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://nationalarchives.gov.uk/pronom/Format/799">
+	<pronom:IsSubtypeOf rdf:resource="http://nationalarchives.gov.uk/pronom/Format/612"/>
+</rdf:Description>
+
+<!-- EXIF -->
+<rdf:Description rdf:about="http://dbpedia.org/resource/Exchangeable_image_file_format">
+	<pronom:IsSubtypeOf rdf:resource="http://nationalarchives.gov.uk/pronom/Format/612"/>
+</rdf:Description>
+
+
+<rdf:Description rdf:about="http://nationalarchives.gov.uk/pronom/Format/752">
+	<pronom:IsSubtypeOf rdf:resource="http://dbpedia.org/resource/Exchangeable_image_file_format"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://nationalarchives.gov.uk/pronom/Format/673">
+	<pronom:IsSubtypeOf rdf:resource="http://dbpedia.org/resource/Exchangeable_image_file_format"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://nationalarchives.gov.uk/pronom/Format/672">
+	<pronom:IsSubtypeOf rdf:resource="http://dbpedia.org/resource/Exchangeable_image_file_format"/>
+</rdf:Description>
+
+</rdf:RDF>
