@@ -8,7 +8,7 @@
 	
 ]>
 
-<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:pronom="http://pronom.nationalarchives.gov.uk/#" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:pronom="http://pronom.nationalarchives.gov.uk/#" xmlns:p2-additional="http://p2-registry.ecs.soton.ac.uk/ontology/#" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
 
 
 <rdf:Description rdf:about="http://dbpedia.org/resource/Portable_Network_Graphics">
@@ -31,4 +31,4 @@
 </rdf:Description>
 
 
-
+</rdf:RDF>

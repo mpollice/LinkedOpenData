@@ -8,7 +8,7 @@
 	
 ]>
 
-<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:pronom="http://pronom.nationalarchives.gov.uk/#" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:pronom="http://pronom.nationalarchives.gov.uk/#" xmlns:p2-additional="http://p2-registry.ecs.soton.ac.uk/ontology/#" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
 
 
 <rdf:Description rdf:about="http://dbpedia.org/resource/Tagged_Image_File_Format">
@@ -82,3 +82,4 @@
 	<p2-additional:complexity rdf:resource="http://p2-registry.ecs.soton.ac.uk/pronom/risk_categories/complexity/high"/>
 </rdf:Description>
 
+</rdf:RDF>
