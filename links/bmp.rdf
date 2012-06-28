@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE rdf:RDF [
+        <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+        <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#">
+        <!ENTITY pronom "http://pronom.nationalarchives.gov.uk/#">
+]>
+
+<rdf:RDF 	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+					xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+					xmlns:pronom="http://pronom.nationalarchives.gov.uk/#">
+
+<rdf:Description rdf:about="http://nationalarchives.gov.uk/pronom/Format/114">
+	<pronom:IsSubtypeOf rdf:resource="http://dbpedia.org/resource/BMP_file_format"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://nationalarchives.gov.uk/pronom/Format/115">
+	<pronom:IsSubtypeOf rdf:resource="http://dbpedia.org/resource/BMP_file_format"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://nationalarchives.gov.uk/pronom/Format/116">
+	<pronom:IsSubtypeOf rdf:resource="http://dbpedia.org/resource/BMP_file_format"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://nationalarchives.gov.uk/pronom/Format/117">
+	<pronom:IsSubtypeOf rdf:resource="http://dbpedia.org/resource/BMP_file_format"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://nationalarchives.gov.uk/pronom/Format/118">
+	<pronom:IsSubtypeOf rdf:resource="http://dbpedia.org/resource/BMP_file_format"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://nationalarchives.gov.uk/pronom/Format/119">
+	<pronom:IsSubtypeOf rdf:resource="http://dbpedia.org/resource/BMP_file_format"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://dbpedia.org/resource/BMP_file_format">
+	<pronom:IsSupertypeOf rdf:resource="http://nationalarchives.gov.uk/pronom/Format/114"/>
+	<pronom:IsSupertypeOf rdf:resource="http://nationalarchives.gov.uk/pronom/Format/115"/>
+	<pronom:IsSupertypeOf rdf:resource="http://nationalarchives.gov.uk/pronom/Format/116"/>
+	<pronom:IsSupertypeOf rdf:resource="http://nationalarchives.gov.uk/pronom/Format/117"/>
+	<pronom:IsSupertypeOf rdf:resource="http://nationalarchives.gov.uk/pronom/Format/118"/>
+	<pronom:IsSupertypeOf rdf:resource="http://nationalarchives.gov.uk/pronom/Format/119"/>
+</rdf:Description>
+</rdf:RDF>

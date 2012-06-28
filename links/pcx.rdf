@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE rdf:RDF [
+        <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+        <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#">
+        <!ENTITY pronom "http://pronom.nationalarchives.gov.uk/#">
+]>
+
+<rdf:RDF 	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+					xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+					xmlns:pronom="http://pronom.nationalarchives.gov.uk/#">
+
+<rdf:Description rdf:about="http://nationalarchives.gov.uk/pronom/Format/86">
+	<pronom:IsSubtypeOf rdf:resource="http://www.dbpedia.org/resource/PCX"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://nationalarchives.gov.uk/pronom/Format/87">
+	<pronom:IsSubtypeOf rdf:resource="http://www.dbpedia.org/resource/PCX"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://nationalarchives.gov.uk/pronom/Format/88">
+	<pronom:IsSubtypeOf rdf:resource="http://www.dbpedia.org/resource/PCX"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://nationalarchives.gov.uk/pronom/Format/89">
+	<pronom:IsSubtypeOf rdf:resource="http://www.dbpedia.org/resource/PCX"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://nationalarchives.gov.uk/pronom/Format/90">
+	<pronom:IsSubtypeOf rdf:resource="http://www.dbpedia.org/resource/PCX"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.dbpedia.org/resource/PCX">
+	<pronom:IsSupertypeOf rdf:resource="http://nationalarchives.gov.uk/pronom/Format/86"/>
+	<pronom:IsSupertypeOf rdf:resource="http://nationalarchives.gov.uk/pronom/Format/87"/>
+	<pronom:IsSupertypeOf rdf:resource="http://nationalarchives.gov.uk/pronom/Format/88"/>
+	<pronom:IsSupertypeOf rdf:resource="http://nationalarchives.gov.uk/pronom/Format/89"/>
+	<pronom:IsSupertypeOf rdf:resource="http://nationalarchives.gov.uk/pronom/Format/90"/>
+</rdf:Description>
+</rdf:RDF>
