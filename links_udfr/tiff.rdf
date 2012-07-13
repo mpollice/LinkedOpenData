@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE rdf:RDF [
+        <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+        <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#">
+        <!ENTITY udfrs "http://udfr.org/onto#">
+		<!ENTITY owl "http://www.w3.org/2002/07/owl#">
+]>
+
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:udfrs="http://udfr.org/onto#" xmlns:owl="http://www.w3.org/2002/07/owl#">
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Tagged_Image_File_Format">
+	<owl:sameAs rdf:resource="http://udfr.org/udfr/u1f328"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://udfr.org/udfr/u1f406">
+	<udfrs:IsSubtypeOf rdf:resource="http://udfr.org/udfr/u1f328"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://udfr.org/udfr/u1f417">
+	<udfrs:IsSubtypeOf rdf:resource="http://udfr.org/udfr/u1f328"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://udfr.org/udfr/u1f428">
+	<udfrs:IsSubtypeOf rdf:resource="http://udfr.org/udfr/u1f328"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://udfr.org/udfr/u1f47">
+	<udfrs:IsSubtypeOf rdf:resource="http://udfr.org/udfr/u1f328"/>
+</rdf:Description>
+
+
+<rdf:Description rdf:about="http://udfr.org/udfr/u1f105"> <!-- Adobe DNG -->
+	<udfrs:IsSubtypeOf rdf:resource="http://udfr.org/udfr/u1f47"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://udfr.org/udfr/u1f106"> <!-- TIFF/IT -->
+	<udfrs:IsSubtypeOf rdf:resource="http://udfr.org/udfr/u1f47"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://udfr.org/udfr/u1f107"> <!-- TIFF/EP -->
+	<udfrs:IsSubtypeOf rdf:resource="http://udfr.org/udfr/u1f47"/>
+	<owl:sameAs rdf:resource="http://dbpedia.org/resource/Tag_Image_File_Format_/_Electronic_Photography"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://udfr.org/udfr/u1f108"> <!--GeoTiff -->
+	<udfrs:IsSubtypeOf rdf:resource="http://udfr.org/udfr/u1f47"/>
+	<owl:sameAs rdf:resource="http://dbpedia.org/resource/GeoTIFF"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://udfr.org/udfr/u1f109"> <!-- TIFF-FX -->
+	<udfrs:IsSubtypeOf rdf:resource="http://udfr.org/udfr/u1f47"/>
+</rdf:Description>
+
+
+
+</rdf:RDF>

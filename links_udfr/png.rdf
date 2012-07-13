@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE rdf:RDF [
+        <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+        <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#">
+        <!ENTITY udfrs "http://udfr.org/onto#">
+]>
+
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:udfrs="http://udfr.org/onto#">
+
+<rdf:Description rdf:about="http://udfr.org/udfr/u1f58"> <!-- PNG 1.0 -->
+	<udfrs:IsSubtypeOf rdf:resource="http://dbpedia.org/resource/Portable_Network_Graphics"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://udfr.org/udfr/u1f69"> <!-- PNG 1.1 -->
+	<udfrs:IsSubtypeOf rdf:resource="http://dbpedia.org/resource/Portable_Network_Graphics"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://udfr.org/udfr/u1f80"> <!-- PNG 1.2 -->
+	<udfrs:IsSubtypeOf rdf:resource="http://dbpedia.org/resource/Portable_Network_Graphics"/>
+</rdf:Description>
+
+</rdf:RDF>

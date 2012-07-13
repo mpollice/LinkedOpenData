@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE rdf:RDF [
+        <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+        <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#">
+        <!ENTITY udfrs "http://udfr.org/onto#">
+]>
+
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:udfrs="http://udfr.org/onto#">
+
+<rdf:Description rdf:about="http://udfr.org/udfr/u1f375"> <!-- Raw JPEG Stream-->
+	<udfrs:IsSubtypeOf rdf:resource="http://dbpedia.org/resource/JPEG"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://udfr.org/udfr/u1f376"> <!-- JPEG File Interchange Format, version 1.00 -->
+	<udfrs:IsSubtypeOf rdf:resource="http://dbpedia.org/resource/JPEG"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://udfr.org/udfr/u1f377"> <!-- JPEG File Interchange Format, version 1.01 -->
+	<udfrs:IsSubtypeOf rdf:resource="http://dbpedia.org/resource/JPEG"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://udfr.org/udfr/u1f378"> <!-- JPEG File Interchange Format, version 1.02 -->
+	<udfrs:IsSubtypeOf rdf:resource="http://dbpedia.org/resource/JPEG"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://udfr.org/udfr/u1f61"> <!-- SPIFF (1.0) -->
+	<udfrs:IsSubtypeOf rdf:resource="http://dbpedia.org/resource/JPEG"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://udfr.org/udfr/u1f101"> <!-- JTIP (JPEG Tiled Image Pyramid) -->
+	<udfrs:IsSubtypeOf rdf:resource="http://dbpedia.org/resource/JPEG"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://udfr.org/udfr/u1f769"> <!-- Exif Compressed Image (2.0) -->
+	<udfrs:IsSubtypeOf rdf:resource="http://dbpedia.org/resource/JPEG"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://udfr.org/udfr/u1f761"> <!-- Exif Compressed Image (2.1) -->
+	<udfrs:IsSubtypeOf rdf:resource="http://dbpedia.org/resource/JPEG"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://udfr.org/udfr/u1f762"> <!-- Exif Compressed Image (2.2) -->
+	<udfrs:IsSubtypeOf rdf:resource="http://dbpedia.org/resource/JPEG"/>
+</rdf:Description>
+
+
+
+</rdf:RDF>
