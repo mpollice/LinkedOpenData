@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE rdf:RDF [
+        <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+        <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#">
+        <!ENTITY pronom "http://pronom.nationalarchives.gov.uk/#">
+	<!ENTITY p2-additional "http://p2-registry.ecs.soton.ac.uk/ontology/#">
+	<!ENTITY xsd "http://www.w3.org/2001/XMLSchema">
+	
+]>
+
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:pronom="http://pronom.nationalarchives.gov.uk/#" xmlns:p2-additional="http://p2-registry.ecs.soton.ac.uk/ontology/#" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Tagged_Image_File_Format">
+	<pronom:ReleaseDate>01 Sep 1986</pronom:ReleaseDate>
+	<pronom:stability rdf:resource="http://p2-registry.ecs.soton.ac.uk/pronom/risk_categories/stability/stable"/>
+	<pronom:identification_type rdf:resource="http://p2-registry.ecs.soton.ac.uk/pronom/risk_categories/identification/positive_generic"/>
+	<pronom:format_type rdf:resource="http://p2-registry.ecs.soton.ac.uk/pronom/risk_categories/format_type/lossless"/>
+	<pronom:format_type rdf:resource="http://p2-registry.ecs.soton.ac.uk/pronom/risk_categories/format_type/compressed"/>
+	<p2-additional:ubiquity rdf:resource="http://p2-registry.ecs.soton.ac.uk/pronom/risk_categories/ubiquity/widely_used"/>
+</rdf:Description>
+
+
+<rdf:Description rdf:about="http://udfr.org/udfr/u1f406"> <!-- TIFF 3 -->
+	<pronom:rights rdf:resource="http://p2-registry.ecs.soton.ac.uk/pronom/risk_categories/rights/ipr_protected"/>
+	<p2-additional:documentation_quality rdf:resource="http://p2-registry.ecs.soton.ac.uk/pronom/risk_categories/documentation_quality/poor"/>
+	<p2-additional:complexity rdf:resource="http://p2-registry.ecs.soton.ac.uk/pronom/risk_categories/complexity/medium"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://udfr.org/udfr/u1f417"> <!-- TIFF 4 -->
+	<pronom:rights rdf:resource="http://p2-registry.ecs.soton.ac.uk/pronom/risk_categories/rights/ipr_protected"/>
+	<p2-additional:documentation_quality rdf:resource="http://p2-registry.ecs.soton.ac.uk/pronom/risk_categories/documentation_quality/poor"/>
+	<p2-additional:complexity rdf:resource="http://p2-registry.ecs.soton.ac.uk/pronom/risk_categories/complexity/medium"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://udfr.org/udfr/u1f428"> <!-- TIFF 5 -->
+	<pronom:rights rdf:resource="http://p2-registry.ecs.soton.ac.uk/pronom/risk_categories/rights/ipr_protected"/>
+	<p2-additional:documentation_quality rdf:resource="http://p2-registry.ecs.soton.ac.uk/pronom/risk_categories/documentation_quality/suitable"/>
+	<p2-additional:complexity rdf:resource="http://p2-registry.ecs.soton.ac.uk/pronom/risk_categories/complexity/medium"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://udfr.org/udfr/u1f47"> <!-- TIFF 6 -->
+	<pronom:rights rdf:resource="http://p2-registry.ecs.soton.ac.uk/pronom/risk_categories/rights/ipr_protected"/>
+	<p2-additional:documentation_quality rdf:resource="http://p2-registry.ecs.soton.ac.uk/pronom/risk_categories/documentation_quality/high"/>
+	<p2-additional:complexity rdf:resource="http://p2-registry.ecs.soton.ac.uk/pronom/risk_categories/complexity/high"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://udfr.org/udfr/u1f105"> <!-- Adobe DNG -->
+	<pronom:rights rdf:resource="http://p2-registry.ecs.soton.ac.uk/pronom/risk_categories/rights/ipr_protected"/>
+	<p2-additional:documentation_quality rdf:resource="http://p2-registry.ecs.soton.ac.uk/pronom/risk_categories/documentation_quality/high"/> <!-- for that version -->
+	<p2-additional:complexity rdf:resource="http://p2-registry.ecs.soton.ac.uk/pronom/risk_categories/complexity/medium"/>
+</rdf:Description>
+
+
+<rdf:Description rdf:about="http://udfr.org/udfr/u1f106"> <!-- TIFF/IT -->
+	<pronom:rights rdf:resource="http://p2-registry.ecs.soton.ac.uk/pronom/risk_categories/rights/open"/>
+	<p2-additional:documentation_quality rdf:resource="http://p2-registry.ecs.soton.ac.uk/pronom/risk_categories/documentation_quality/high"/>
+	<p2-additional:complexity rdf:resource="http://p2-registry.ecs.soton.ac.uk/pronom/risk_categories/complexity/high"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://udfr.org/udfr/u1f107"> <!-- TIFF/EP -->
+	<pronom:rights rdf:resource="http://p2-registry.ecs.soton.ac.uk/pronom/risk_categories/rights/open"/>
+	<p2-additional:documentation_quality rdf:resource="http://p2-registry.ecs.soton.ac.uk/pronom/risk_categories/documentation_quality/high"/>
+	<p2-additional:complexity rdf:resource="http://p2-registry.ecs.soton.ac.uk/pronom/risk_categories/complexity/high"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://udfr.org/udfr/u1f108"> <!--GeoTiff -->
+	<pronom:rights rdf:resource="http://p2-registry.ecs.soton.ac.uk/pronom/risk_categories/rights/open"/>
+	<p2-additional:documentation_quality rdf:resource="http://p2-registry.ecs.soton.ac.uk/pronom/risk_categories/documentation_quality/high"/>
+	<p2-additional:complexity rdf:resource="http://p2-registry.ecs.soton.ac.uk/pronom/risk_categories/complexity/high"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://udfr.org/udfr/u1f109"> <!-- TIFF-FX -->
+	<pronom:rights rdf:resource="http://p2-registry.ecs.soton.ac.uk/pronom/risk_categories/rights/open"/>
+	<p2-additional:documentation_quality rdf:resource="http://p2-registry.ecs.soton.ac.uk/pronom/risk_categories/documentation_quality/high"/>
+	<p2-additional:complexity rdf:resource="http://p2-registry.ecs.soton.ac.uk/pronom/risk_categories/complexity/medium"/>
+</rdf:Description>
+
+</rdf:RDF>

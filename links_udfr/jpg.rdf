@@ -33,14 +33,17 @@
 
 <rdf:Description rdf:about="http://udfr.org/udfr/u1f769"> <!-- Exif Compressed Image (2.0) -->
 	<udfrs:IsSubtypeOf rdf:resource="http://dbpedia.org/resource/JPEG"/>
+	<udfrs:IsSubtypeOf rdf:resource="http://dbpedia.org/resource/Exchangeable_image_file_format"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://udfr.org/udfr/u1f761"> <!-- Exif Compressed Image (2.1) -->
 	<udfrs:IsSubtypeOf rdf:resource="http://dbpedia.org/resource/JPEG"/>
+	<udfrs:IsSubtypeOf rdf:resource="http://dbpedia.org/resource/Exchangeable_image_file_format"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://udfr.org/udfr/u1f762"> <!-- Exif Compressed Image (2.2) -->
 	<udfrs:IsSubtypeOf rdf:resource="http://dbpedia.org/resource/JPEG"/>
+	<udfrs:IsSubtypeOf rdf:resource="http://dbpedia.org/resource/Exchangeable_image_file_format"/>
 </rdf:Description>
 
 

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE rdf:RDF [
+        <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+        <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#">
+        <!ENTITY udfrs "http://udfr.org/onto#">
+]>
+
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:udfrs="http://udfr.org/onto#">
+
+<rdf:Description rdf:about="http://tuwien.ac.at/dp/resource/picasa39"> 
+	<rdfs:label>Google Picasa 3.9</rdfs:label>
+	<udfrs:releaseDate>2011-12-08</udfrs:releaseDate>
+    <udfrs:softwareType rdf:resource="http://udfr.org/onto#Application" />
+    <udfrs:version>3.9</udfrs:version>
+    <rdf:type rdf:resource="http://udfr.org/onto#Software" />
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tuwien.ac.at/dp/resource/picasa_jpg"> 
+	<udfrs:inputFormat rdf:resource="http://dbpedia.org/resource/JPEG" />
+    <udfrs:processType rdf:resource="http://udfr.org/onto#Render" />
+    <udfrs:software rdf:resource="http://tuwien.ac.at/dp/resource/picasa39" />
+     <rdf:type rdf:resource="http://udfr.org/onto#Process" />
+     <rdfs:label>Picasa 3.9 rendering process for JPEG</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tuwien.ac.at/dp/resource/picasa_tiff"> 
+	<udfrs:inputFormat rdf:resource="http://dbpedia.org/resource/Tagged_Image_File_Format" />
+    <udfrs:processType rdf:resource="http://udfr.org/onto#Render" />
+    <udfrs:software rdf:resource="http://tuwien.ac.at/dp/resource/picasa39" />
+     <rdf:type rdf:resource="http://udfr.org/onto#Process" />
+     <rdfs:label>Picasa 3.9 rendering process for TIFF</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tuwien.ac.at/dp/resource/picasa_psd"> 
+	<udfrs:inputFormat rdf:resource="http://udfr.org/udfr/u1f884" />
+    <udfrs:processType rdf:resource="http://udfr.org/onto#Render" />
+    <udfrs:software rdf:resource="http://tuwien.ac.at/dp/resource/picasa39" />
+     <rdf:type rdf:resource="http://udfr.org/onto#Process" />
+     <rdfs:label>Picasa 3.9 rendering process for PSD</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tuwien.ac.at/dp/resource/picasa_png"> 
+	<udfrs:inputFormat rdf:resource="http://dbpedia.org/resource/Portable_Network_Graphics" />
+    <udfrs:processType rdf:resource="http://udfr.org/onto#Render" />
+    <udfrs:software rdf:resource="http://tuwien.ac.at/dp/resource/picasa39" />
+     <rdf:type rdf:resource="http://udfr.org/onto#Process" />
+     <rdfs:label>Picasa 3.9 rendering process for PNG</rdfs:label>
+</rdf:Description>
+	
+</rdf:RDF>

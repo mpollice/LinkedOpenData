@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE rdf:RDF [
+        <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+        <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#">
+        <!ENTITY pronom "http://pronom.nationalarchives.gov.uk/#">
+	<!ENTITY p2-additional "http://p2-registry.ecs.soton.ac.uk/ontology/#">
+	<!ENTITY xsd "http://www.w3.org/2001/XMLSchema">
+	
+]>
+
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:pronom="http://pronom.nationalarchives.gov.uk/#" xmlns:p2-additional="http://p2-registry.ecs.soton.ac.uk/ontology/#" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+
+<rdf:Description rdf:about="http://udfr.org/udfr/u1f884">
+
+	<pronom:stability rdf:resource="http://p2-registry.ecs.soton.ac.uk/pronom/risk_categories/stability/stable"/>
+	<pronom:identification_type rdf:resource="http://p2-registry.ecs.soton.ac.uk/pronom/risk_categories/identification/positive_specific"/>
+	<pronom:format_type rdf:resource="http://p2-registry.ecs.soton.ac.uk/pronom/risk_categories/format_type/lossless"/>
+	<p2-additional:ubiquity rdf:resource="http://p2-registry.ecs.soton.ac.uk/pronom/risk_categories/ubiquity/specialised"/>
+	<pronom:rights rdf:resource="http://p2-registry.ecs.soton.ac.uk/pronom/risk_categories/rights/ipr_protected"/>
+	<p2-additional:documentation_quality rdf:resource="http://p2-registry.ecs.soton.ac.uk/pronom/risk_categories/documentation_quality/high"/>
+	<p2-additional:complexity rdf:resource="http://p2-registry.ecs.soton.ac.uk/pronom/risk_categories/complexity/high"/>
+</rdf:Description>
+
+</rdf:RDF>
