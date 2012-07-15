@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE rdf:RDF [
+        <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+        <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#">
+        <!ENTITY udfrs "http://udfr.org/onto#">
+]>
+
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:udfrs="http://udfr.org/onto#">
+
+<rdf:Description rdf:about="http://tuwien.ac.at/dp/resource/photoshopCS6"> 
+	<rdfs:label>Adobe Photoshop CS6</rdfs:label>
+	<udfrs:releaseDate>2012-05-07</udfrs:releaseDate>
+    <udfrs:softwareType rdf:resource="http://udfr.org/onto#Application" />
+    <udfrs:version>CS6/udfrs:version>
+    <rdf:type rdf:resource="http://udfr.org/onto#Software" />
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tuwien.ac.at/dp/resource/photoshop_jpg_render"> 
+	<udfrs:inputFormat rdf:resource="http://dbpedia.org/resource/JPEG" />
+    <udfrs:processType rdf:resource="http://udfr.org/onto#Render" />
+    <udfrs:software rdf:resource=http://tuwien.ac.at/dp/resource/photoshopCS6" />
+     <rdf:type rdf:resource="http://udfr.org/onto#Process" />
+     <rdfs:label>Photoshop CS6 rendering process for JPEG</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tuwien.ac.at/dp/resource/photoshop_jpg_create"> 
+	<udfrs:outputFormat rdf:resource="http://dbpedia.org/resource/JPEG" />
+    <udfrs:processType rdf:resource="http://udfr.org/onto#Create" />
+    <udfrs:software rdf:resource=http://tuwien.ac.at/dp/resource/photoshopCS6" />
+     <rdf:type rdf:resource="http://udfr.org/onto#Process" />
+     <rdfs:label>Photoshop CS6 creation process for JPEG</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tuwien.ac.at/dp/resource/photoshop_tiff_render"> 
+	<udfrs:inputFormat rdf:resource="http://dbpedia.org/resource/Tagged_Image_File_Format" />
+    <udfrs:processType rdf:resource="http://udfr.org/onto#Render" />
+    <udfrs:software rdf:resource=http://tuwien.ac.at/dp/resource/photoshopCS6" />
+     <rdf:type rdf:resource="http://udfr.org/onto#Process" />
+     <rdfs:label>Photoshop CS6 rendering process for TIFF</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tuwien.ac.at/dp/resource/photoshop_tiff_create"> 
+	<udfrs:outputFormat rdf:resource="http://dbpedia.org/resource/Tagged_Image_File_Format" />
+    <udfrs:processType rdf:resource="http://udfr.org/onto#Create" />
+    <udfrs:software rdf:resource=http://tuwien.ac.at/dp/resource/photoshopCS6" />
+     <rdf:type rdf:resource="http://udfr.org/onto#Process" />
+     <rdfs:label>Photoshop CS6 creation process for TIFF</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tuwien.ac.at/dp/resource/photoshop_psd_render"> 
+	<udfrs:inputFormat rdf:resource="http://udfr.org/udfr/u1f884" />
+    <udfrs:processType rdf:resource="http://udfr.org/onto#Render" />
+    <udfrs:software rdf:resource=http://tuwien.ac.at/dp/resource/photoshopCS6" />
+     <rdf:type rdf:resource="http://udfr.org/onto#Process" />
+     <rdfs:label>Photoshop CS6 rendering process for PSD</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tuwien.ac.at/dp/resource/photoshop_psd_create"> 
+	<udfrs:outputFormat rdf:resource="http://udfr.org/udfr/u1f884" />
+    <udfrs:processType rdf:resource="http://udfr.org/onto#Create" />
+    <udfrs:software rdf:resource=http://tuwien.ac.at/dp/resource/photoshopCS6" />
+     <rdf:type rdf:resource="http://udfr.org/onto#Process" />
+     <rdfs:label>Photoshop CS6 creation process for PSD</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tuwien.ac.at/dp/resource/photoshop_png_render"> 
+	<udfrs:inputFormat rdf:resource="http://dbpedia.org/resource/Portable_Network_Graphics" />
+    <udfrs:processType rdf:resource="http://udfr.org/onto#Render" />
+    <udfrs:software rdf:resource=http://tuwien.ac.at/dp/resource/photoshopCS6" />
+     <rdf:type rdf:resource="http://udfr.org/onto#Process" />
+     <rdfs:label>Photoshop CS6 rendering process for PNG</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tuwien.ac.at/dp/resource/photoshop_png_create"> 
+	<udfrs:outputFormat rdf:resource="http://dbpedia.org/resource/Portable_Network_Graphics" />
+    <udfrs:processType rdf:resource="http://udfr.org/onto#Create" />
+    <udfrs:software rdf:resource=http://tuwien.ac.at/dp/resource/photoshopCS6" />
+     <rdf:type rdf:resource="http://udfr.org/onto#Process" />
+     <rdfs:label>Photoshop CS6 creation process for PNG</rdfs:label>
+</rdf:Description>
+
+	
+</rdf:RDF>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE rdf:RDF [
+        <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+        <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#">
+        <!ENTITY udfrs "http://udfr.org/onto#">
+]>
+
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:udfrs="http://udfr.org/onto#">
+
+<rdf:Description rdf:about="http://tuwien.ac.at/dp/resource/inkspace048"> 
+	<rdfs:label>Inkspace 0.48.2</rdfs:label>
+	<udfrs:releaseDate>2011-09-06</udfrs:releaseDate>
+    <udfrs:softwareType rdf:resource="http://udfr.org/onto#Application" />
+    <udfrs:version>0.48.2</udfrs:version>
+    <rdf:type rdf:resource="http://udfr.org/onto#Software" />
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tuwien.ac.at/dp/resource/inkspace_jpg_render"> 
+	<udfrs:inputFormat rdf:resource="http://dbpedia.org/resource/JPEG" />
+    <udfrs:processType rdf:resource="http://udfr.org/onto#Render" />
+    <udfrs:software rdf:resource="http://tuwien.ac.at/dp/resource/inkspace048" />
+     <rdf:type rdf:resource="http://udfr.org/onto#Process" />
+     <rdfs:label>Inkspace 0.48.2 rendering process for JPEG</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tuwien.ac.at/dp/resource/inkspace_tiff_render"> 
+	<udfrs:inputFormat rdf:resource="http://dbpedia.org/resource/Tagged_Image_File_Format" />
+    <udfrs:processType rdf:resource="http://udfr.org/onto#Render" />
+    <udfrs:software rdf:resource="http://tuwien.ac.at/dp/resource/inkspace048" />
+     <rdf:type rdf:resource="http://udfr.org/onto#Process" />
+     <rdfs:label>Inkspace 0.48.2 rendering process for TIFF</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tuwien.ac.at/dp/resource/inkspace_png_render"> 
+	<udfrs:inputFormat rdf:resource="http://dbpedia.org/resource/Portable_Network_Graphics" />
+    <udfrs:processType rdf:resource="http://udfr.org/onto#Render" />
+    <udfrs:software rdf:resource="http://tuwien.ac.at/dp/resource/inkspace048" />
+     <rdf:type rdf:resource="http://udfr.org/onto#Process" />
+     <rdfs:label>Inkspace 0.48.2 rendering process for PNG</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tuwien.ac.at/dp/resource/inkspace_png_create"> 
+	<udfrs:outputFormat rdf:resource="http://dbpedia.org/resource/Portable_Network_Graphics" />
+    <udfrs:processType rdf:resource="http://udfr.org/onto#Create" />
+    <udfrs:software rdf:resource="http://tuwien.ac.at/dp/resource/inkspace048" />
+     <rdf:type rdf:resource="http://udfr.org/onto#Process" />
+     <rdfs:label>Inkspace 0.48.2 creation process for PNG</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tuwien.ac.at/dp/resource/inkspace_svg_render"> 
+	<udfrs:inputFormat rdf:resource="http://dbpedia.org/resource/Scalable_Vector_Graphics" />
+    <udfrs:processType rdf:resource="http://udfr.org/onto#Render" />
+    <udfrs:software rdf:resource="http://tuwien.ac.at/dp/resource/inkspace048" />
+     <rdf:type rdf:resource="http://udfr.org/onto#Process" />
+     <rdfs:label>Inkspace 0.48.2 rendering process for SVG</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tuwien.ac.at/dp/resource/inkspace_svg_create"> 
+	<udfrs:outputFormat rdf:resource="http://dbpedia.org/resource/Scalable_Vector_Graphics" />
+    <udfrs:processType rdf:resource="http://udfr.org/onto#Create" />
+    <udfrs:software rdf:resource="http://tuwien.ac.at/dp/resource/inkspace048" />
+     <rdf:type rdf:resource="http://udfr.org/onto#Process" />
+     <rdfs:label>Inkspace 0.48.2 creation process for SVG</rdfs:label>
+</rdf:Description>
+	
+</rdf:RDF>
