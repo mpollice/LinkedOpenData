@@ -46,5 +46,21 @@
      <rdf:type rdf:resource="http://udfr.org/onto#Process" />
      <rdfs:label>Picasa 3.9 rendering process for PNG</rdfs:label>
 </rdf:Description>
-	
+
+<rdf:Description rdf:about="http://tuwien.ac.at/dp/resource/picasa_bmp"> 
+	<udfrs:inputFormat rdf:resource="http://dbpedia.org/resource/BMP_file_format" />
+    <udfrs:processType rdf:resource="http://udfr.org/onto#Render" />
+    <udfrs:software rdf:resource="http://tuwien.ac.at/dp/resource/picasa39" />
+     <rdf:type rdf:resource="http://udfr.org/onto#Process" />
+     <rdfs:label>Picasa 3.9 rendering process for BMP</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tuwien.ac.at/dp/resource/picasa_gif"> 
+	<udfrs:inputFormat rdf:resource="http://dbpedia.org/resource/Graphics_Interchange_Format" />
+    <udfrs:processType rdf:resource="http://udfr.org/onto#Render" />
+    <udfrs:software rdf:resource="http://tuwien.ac.at/dp/resource/picasa39" />
+     <rdf:type rdf:resource="http://udfr.org/onto#Process" />
+     <rdfs:label>Picasa 3.9 rendering process for GIF</rdfs:label>
+</rdf:Description>
+
 </rdf:RDF>

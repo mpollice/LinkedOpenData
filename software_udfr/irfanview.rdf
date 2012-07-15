@@ -15,7 +15,7 @@
     <rdf:type rdf:resource="http://udfr.org/onto#Software" />
 </rdf:Description>
 
-<rdf:Description rdf:about="http://tuwien.ac.at/dp/resource/irfanview_jpg"> 
+<rdf:Description rdf:about="http://tuwien.ac.at/dp/resource/irfanview_jpg_render"> 
 	<udfrs:inputFormat rdf:resource="http://dbpedia.org/resource/JPEG" />
     <udfrs:processType rdf:resource="http://udfr.org/onto#Render" />
     <udfrs:software rdf:resource="http://tuwien.ac.at/dp/resource/irfanview433" />
@@ -23,7 +23,15 @@
      <rdfs:label>IrfanView 4.33 rendering process for JPEG</rdfs:label>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://tuwien.ac.at/dp/resource/irfanview_tiff"> 
+<rdf:Description rdf:about="http://tuwien.ac.at/dp/resource/irfanview_jpg_create"> 
+	<udfrs:outputFormat rdf:resource="http://dbpedia.org/resource/JPEG" />
+    <udfrs:processType rdf:resource="http://udfr.org/onto#Create" />
+    <udfrs:software rdf:resource="http://tuwien.ac.at/dp/resource/irfanview433" />
+     <rdf:type rdf:resource="http://udfr.org/onto#Process" />
+     <rdfs:label>IrfanView 4.33 creation process for JPEG</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tuwien.ac.at/dp/resource/irfanview_tiff_render"> 
 	<udfrs:inputFormat rdf:resource="http://dbpedia.org/resource/Tagged_Image_File_Format" />
     <udfrs:processType rdf:resource="http://udfr.org/onto#Render" />
     <udfrs:software rdf:resource="http://tuwien.ac.at/dp/resource/irfanview433" />
@@ -31,7 +39,15 @@
      <rdfs:label>IrfanView 4.33 rendering process for TIFF</rdfs:label>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://tuwien.ac.at/dp/resource/irfanview_psd"> 
+<rdf:Description rdf:about="http://tuwien.ac.at/dp/resource/irfanview_tiff_create"> 
+	<udfrs:outputFormat rdf:resource="http://dbpedia.org/resource/Tagged_Image_File_Format" />
+    <udfrs:processType rdf:resource="http://udfr.org/onto#Create" />
+    <udfrs:software rdf:resource="http://tuwien.ac.at/dp/resource/irfanview433" />
+     <rdf:type rdf:resource="http://udfr.org/onto#Process" />
+     <rdfs:label>IrfanView 4.33 creation process for TIFF</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tuwien.ac.at/dp/resource/irfanview_psd_render"> 
 	<udfrs:inputFormat rdf:resource="http://udfr.org/udfr/u1f884" />
     <udfrs:processType rdf:resource="http://udfr.org/onto#Render" />
     <udfrs:software rdf:resource="http://tuwien.ac.at/dp/resource/irfanview433" />
@@ -39,12 +55,20 @@
      <rdfs:label>IrfanView 4.33 rendering process for PSD</rdfs:label>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://tuwien.ac.at/dp/resource/irfanview_png"> 
+<rdf:Description rdf:about="http://tuwien.ac.at/dp/resource/irfanview_png_render"> 
 	<udfrs:inputFormat rdf:resource="http://dbpedia.org/resource/Portable_Network_Graphics" />
     <udfrs:processType rdf:resource="http://udfr.org/onto#Render" />
     <udfrs:software rdf:resource="http://tuwien.ac.at/dp/resource/irfanview433" />
      <rdf:type rdf:resource="http://udfr.org/onto#Process" />
      <rdfs:label>IrfanView 4.33 rendering process for PNG</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tuwien.ac.at/dp/resource/irfanview_png_create"> 
+	<udfrs:outputFormat rdf:resource="http://dbpedia.org/resource/Portable_Network_Graphics" />
+    <udfrs:processType rdf:resource="http://udfr.org/onto#Create" />
+    <udfrs:software rdf:resource="http://tuwien.ac.at/dp/resource/irfanview433" />
+     <rdf:type rdf:resource="http://udfr.org/onto#Process" />
+     <rdfs:label>IrfanView 4.33 creation process for PNG</rdfs:label>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://tuwien.ac.at/dp/resource/irfanview_svg_render"> 
@@ -54,6 +78,69 @@
      <rdf:type rdf:resource="http://udfr.org/onto#Process" />
      <rdfs:label>IrfanView 4.33 rendering process for SVG</rdfs:label>
 </rdf:Description>
-	
+
+<rdf:Description rdf:about="http://tuwien.ac.at/dp/resource/irfanview_bmp_render"> 
+	<udfrs:inputFormat rdf:resource="http://dbpedia.org/resource/BMP_file_format" />
+    <udfrs:processType rdf:resource="http://udfr.org/onto#Render" />
+    <udfrs:software rdf:resource="http://tuwien.ac.at/dp/resource/irfanview433" />
+     <rdf:type rdf:resource="http://udfr.org/onto#Process" />
+     <rdfs:label>IrfanView 4.33 rendering process for BMP</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tuwien.ac.at/dp/resource/irfanview_bmp_create"> 
+	<udfrs:outputFormat rdf:resource="http://dbpedia.org/resource/BMP_file_format" />
+    <udfrs:processType rdf:resource="http://udfr.org/onto#Create" />
+    <udfrs:software rdf:resource="http://tuwien.ac.at/dp/resource/irfanview433" />
+     <rdf:type rdf:resource="http://udfr.org/onto#Process" />
+     <rdfs:label>IrfanView 4.33 creation process for BMP</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tuwien.ac.at/dp/resource/irfanview_gif_render"> 
+	<udfrs:inputFormat rdf:resource="http://dbpedia.org/resource/Graphics_Interchange_Format" />
+    <udfrs:processType rdf:resource="http://udfr.org/onto#Render" />
+    <udfrs:software rdf:resource="http://tuwien.ac.at/dp/resource/irfanview433" />
+     <rdf:type rdf:resource="http://udfr.org/onto#Process" />
+     <rdfs:label>IrfanView 4.33 rendering process for GIF</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tuwien.ac.at/dp/resource/irfanview_gif_create"> 
+	<udfrs:outputFormat rdf:resource="http://dbpedia.org/resource/Graphics_Interchange_Format" />
+    <udfrs:processType rdf:resource="http://udfr.org/onto#Create" />
+    <udfrs:software rdf:resource="http://tuwien.ac.at/dp/resource/irfanview433" />
+     <rdf:type rdf:resource="http://udfr.org/onto#Process" />
+     <rdfs:label>IrfanView 4.33 creation process for GIF</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tuwien.ac.at/dp/resource/irfanview_jpeg2000_render"> 
+	<udfrs:inputFormat rdf:resource="http://dbpedia.org/page/JPEG_2000" />
+    <udfrs:processType rdf:resource="http://udfr.org/onto#Render" />
+    <udfrs:software rdf:resource="http://tuwien.ac.at/dp/resource/irfanview433" />
+     <rdf:type rdf:resource="http://udfr.org/onto#Process" />
+     <rdfs:label>IrfanView 4.33 rendering process for JPEG2000</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tuwien.ac.at/dp/resource/irfanview_jpeg2000_create"> 
+	<udfrs:outputFormat rdf:resource="http://dbpedia.org/page/JPEG_2000" />
+    <udfrs:processType rdf:resource="http://udfr.org/onto#Create" />
+    <udfrs:software rdf:resource="http://tuwien.ac.at/dp/resource/irfanview433" />
+     <rdf:type rdf:resource="http://udfr.org/onto#Process" />
+     <rdfs:label>IrfanView 4.33 creation process for JPEG2000</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tuwien.ac.at/dp/resource/irfanview_pcx_render"> 
+	<udfrs:inputFormat rdf:resource="http://www.dbpedia.org/resource/PCX" />
+    <udfrs:processType rdf:resource="http://udfr.org/onto#Render" />
+    <udfrs:software rdf:resource="http://tuwien.ac.at/dp/resource/irfanview433" />
+     <rdf:type rdf:resource="http://udfr.org/onto#Process" />
+     <rdfs:label>IrfanView 4.33 rendering process for PCX</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tuwien.ac.at/dp/resource/irfanview_pcx_create"> 
+	<udfrs:outputFormat rdf:resource="http://www.dbpedia.org/resource/PCX" />
+    <udfrs:processType rdf:resource="http://udfr.org/onto#Create" />
+    <udfrs:software rdf:resource="http://tuwien.ac.at/dp/resource/irfanview433" />
+     <rdf:type rdf:resource="http://udfr.org/onto#Process" />
+     <rdfs:label>IrfanView 4.33 creation process for PCX</rdfs:label>
+</rdf:Description>
 	
 </rdf:RDF>

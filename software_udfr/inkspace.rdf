@@ -62,5 +62,37 @@
      <rdf:type rdf:resource="http://udfr.org/onto#Process" />
      <rdfs:label>Inkspace 0.48.2 creation process for SVG</rdfs:label>
 </rdf:Description>
+
+<rdf:Description rdf:about="http://tuwien.ac.at/dp/resource/inkspace_bmp_render"> 
+	<udfrs:inputFormat rdf:resource="http://dbpedia.org/resource/BMP_file_format" />
+    <udfrs:processType rdf:resource="http://udfr.org/onto#Render" />
+    <udfrs:software rdf:resource="http://tuwien.ac.at/dp/resource/inkspace048" />
+     <rdf:type rdf:resource="http://udfr.org/onto#Process" />
+     <rdfs:label>Inkspace 0.48.2 rendering process for BMP</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tuwien.ac.at/dp/resource/inkspace_gif_render"> 
+	<udfrs:inputFormat rdf:resource="http://dbpedia.org/resource/Graphics_Interchange_Format" />
+    <udfrs:processType rdf:resource="http://udfr.org/onto#Render" />
+    <udfrs:software rdf:resource="http://tuwien.ac.at/dp/resource/inkspace048" />
+     <rdf:type rdf:resource="http://udfr.org/onto#Process" />
+     <rdfs:label>Inkspace 0.48.2 rendering process for GIF</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tuwien.ac.at/dp/resource/inkspace_jpeg2000_render"> 
+	<udfrs:inputFormat rdf:resource="http://dbpedia.org/page/JPEG_2000" />
+    <udfrs:processType rdf:resource="http://udfr.org/onto#Render" />
+    <udfrs:software rdf:resource="http://tuwien.ac.at/dp/resource/inkspace048" />
+     <rdf:type rdf:resource="http://udfr.org/onto#Process" />
+     <rdfs:label>Inkspace 0.48.2 rendering process for JPEG2000</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tuwien.ac.at/dp/resource/inkspace_pcx_render"> 
+	<udfrs:inputFormat rdf:resource="http://www.dbpedia.org/resource/PCX" />
+    <udfrs:processType rdf:resource="http://udfr.org/onto#Render" />
+    <udfrs:software rdf:resource="http://tuwien.ac.at/dp/resource/inkspace048" />
+     <rdf:type rdf:resource="http://udfr.org/onto#Process" />
+     <rdfs:label>Inkspace 0.48.2 rendering process for PCX</rdfs:label>
+</rdf:Description>
 	
 </rdf:RDF>

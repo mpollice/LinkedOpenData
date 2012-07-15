@@ -86,5 +86,53 @@
      <rdf:type rdf:resource="http://udfr.org/onto#Process" />
      <rdfs:label>GIMP 2.8 rendering process for SVG</rdfs:label>
 </rdf:Description>
+
+<rdf:Description rdf:about="http://tuwien.ac.at/dp/resource/gimp_bmp_render"> 
+	<udfrs:inputFormat rdf:resource="http://dbpedia.org/resource/BMP_file_format" />
+    <udfrs:processType rdf:resource="http://udfr.org/onto#Render" />
+    <udfrs:software rdf:resource="http://tuwien.ac.at/dp/resource/gimp28" />
+     <rdf:type rdf:resource="http://udfr.org/onto#Process" />
+     <rdfs:label>GIMP 2.8 rendering process for BMP</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tuwien.ac.at/dp/resource/gimp_bmp_create"> 
+	<udfrs:outputFormat rdf:resource="http://dbpedia.org/resource/BMP_file_format" />
+    <udfrs:processType rdf:resource="http://udfr.org/onto#Create" />
+    <udfrs:software rdf:resource="http://tuwien.ac.at/dp/resource/gimp28" />
+     <rdf:type rdf:resource="http://udfr.org/onto#Process" />
+     <rdfs:label>GIMP 2.8 creation process for BMP</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tuwien.ac.at/dp/resource/gimp_gif_render"> 
+	<udfrs:inputFormat rdf:resource="http://dbpedia.org/resource/Graphics_Interchange_Format" />
+    <udfrs:processType rdf:resource="http://udfr.org/onto#Render" />
+    <udfrs:software rdf:resource="http://tuwien.ac.at/dp/resource/gimp28" />
+     <rdf:type rdf:resource="http://udfr.org/onto#Process" />
+     <rdfs:label>GIMP 2.8 rendering process for GIF</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tuwien.ac.at/dp/resource/gimp_gif_create"> 
+	<udfrs:outputFormat rdf:resource="http://dbpedia.org/resource/Graphics_Interchange_Format" />
+    <udfrs:processType rdf:resource="http://udfr.org/onto#Create" />
+    <udfrs:software rdf:resource="http://tuwien.ac.at/dp/resource/gimp28" />
+     <rdf:type rdf:resource="http://udfr.org/onto#Process" />
+     <rdfs:label>GIMP 2.8 creation process for GIF</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tuwien.ac.at/dp/resource/gimp_pcx_render"> 
+	<udfrs:inputFormat rdf:resource="http://www.dbpedia.org/resource/PCX" />
+    <udfrs:processType rdf:resource="http://udfr.org/onto#Render" />
+    <udfrs:software rdf:resource="http://tuwien.ac.at/dp/resource/gimp28" />
+     <rdf:type rdf:resource="http://udfr.org/onto#Process" />
+     <rdfs:label>GIMP 2.8 rendering process for PCX</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://tuwien.ac.at/dp/resource/gimp_pcx_create"> 
+	<udfrs:outputFormat rdf:resource="http://www.dbpedia.org/resource/PCX" />
+    <udfrs:processType rdf:resource="http://udfr.org/onto#Create" />
+    <udfrs:software rdf:resource="http://tuwien.ac.at/dp/resource/gimp28" />
+     <rdf:type rdf:resource="http://udfr.org/onto#Process" />
+     <rdfs:label>GIMP 2.8 creation process for PCX</rdfs:label>
+</rdf:Description>
 	
 </rdf:RDF>
