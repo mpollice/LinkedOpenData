@@ -24,6 +24,22 @@ SELECT distinct ?sw  WHERE {
   }
 }
 // very difficult to query tiff - too complicated relations - rules would be very helpful
+-------------------------------------------------------------------
+Count applications capable of creating SVG files
+
+SELECT count( distinct ?sw)  WHERE {  
+  ?format udfrs:IsSubtypeOf ?fmt.
+  ?process rdf:type udfrs:Process .
+  ?process udfrs:processType udfrs:Create .
+  ?process udfrs:outputFormat ?fmt .
+  ?process udfrs:software ?sw
+
+  SERVICE <http://udfr.org/ontowiki/sparql/> {
+      ?format a udfrs:FileFormat . 
+      ?format udfrs:signature ?signature . 
+      ?signature udfrs:signatureValue "svg"
+  }
+}
 --------------------------------------------------------------------
 Look up rights' entries for files with extension "png"
 
@@ -51,5 +67,30 @@ SELECT ?fmtname ?risk WHERE {
       ?format rdfs:label ?fmtname .
       ?format udfrs:signature ?signature . 
       ?signature udfrs:signatureValue "png"
+  }
+}
+
+---------------------------------------------------------------------------------
+Count softwares capable of converting an svg file to png
+
+SELECT count( distinct ?sw)  WHERE {  
+  ?fmt_in udfrs:IsSubtypeOf ?f_in.
+  ?fmt_out udfrs:IsSubtypeOf ?f_out.
+  ?pr_in rdf:type udfrs:Process .
+  ?pr_in udfrs:processType udfrs:Render .
+  ?pr_in udfrs:inputFormat ?f_in .
+  ?pr_in udfrs:software ?sw.
+  ?pr_out rdf:type udfrs:Process .
+  ?pr_out udfrs:processType udfrs:Create .
+  ?pr_out udfrs:outputFormat ?f_out .
+  ?pr_out udfrs:software ?sw.
+
+  SERVICE <http://udfr.org/ontowiki/sparql/> {
+      ?fmt_in a udfrs:FileFormat . 
+      ?fmt_in udfrs:signature ?sign_in . 
+      ?sign_in udfrs:signatureValue "svg" .
+      ?fmt_out a udfrs:FileFormat . 
+      ?fmt_out udfrs:signature ?sign_out . 
+      ?sign_out udfrs:signatureValue "png"
   }
 }
