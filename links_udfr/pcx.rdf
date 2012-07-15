@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE rdf:RDF [
+        <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+        <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#">
+        <!ENTITY udfrs "http://udfr.org/onto#">
+]>
+
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:udfrs="http://udfr.org/onto#">
+
+<rdf:Description rdf:about="http://udfr.org/udfr/u1f424"> <!-- PCX version 0 -->
+	<udfrs:IsSubtypeOf rdf:resource="http://www.dbpedia.org/resource/PCX"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://udfr.org/udfr/u1f425"> <!-- PCX version 2 -->
+	<udfrs:IsSubtypeOf rdf:resource="http://www.dbpedia.org/resource/PCX"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://udfr.org/udfr/u1f426"> <!-- PCX version 3 -->
+	<udfrs:IsSubtypeOf rdf:resource="http://www.dbpedia.org/resource/PCX"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://udfr.org/udfr/u1f427"> <!-- PCX version 4 -->
+	<udfrs:IsSubtypeOf rdf:resource="http://www.dbpedia.org/resource/PCX"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://udfr.org/udfr/u1f429"> <!-- PCX version 5 -->
+	<udfrs:IsSubtypeOf rdf:resource="http://www.dbpedia.org/resource/PCX"/>
+</rdf:Description>
+
+</rdf:RDF>

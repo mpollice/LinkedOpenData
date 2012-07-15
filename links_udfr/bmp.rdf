@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE rdf:RDF [
+        <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+        <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#">
+        <!ENTITY udfrs "http://udfr.org/onto#">
+]>
+
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:udfrs="http://udfr.org/onto#">
+
+<rdf:Description rdf:about="http://udfr.org/udfr/u1f63"> <!-- Windows Bitmap, version 1.0 -->
+	<udfrs:IsSubtypeOf rdf:resource="http://dbpedia.org/resource/BMP_file_format"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://udfr.org/udfr/u1f64"> <!-- Windows Bitmap, version 2.0 -->
+	<udfrs:IsSubtypeOf rdf:resource="http://dbpedia.org/resource/BMP_file_format"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://udfr.org/udfr/u1f65"> <!-- Windows Bitmap, version 3.0 -->
+	<udfrs:IsSubtypeOf rdf:resource="http://dbpedia.org/resource/BMP_file_format"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://udfr.org/udfr/u1f66"> <!-- Windows Bitmap, version 3.0 NT -->
+	<udfrs:IsSubtypeOf rdf:resource="http://dbpedia.org/resource/BMP_file_format"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://udfr.org/udfr/u1f67"> <!-- Windows Bitmap, version 4.0 -->
+	<udfrs:IsSubtypeOf rdf:resource="http://dbpedia.org/resource/BMP_file_format"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://udfr.org/udfr/u1f68"> <!-- Windows Bitmap, version 5.0 -->
+	<udfrs:IsSubtypeOf rdf:resource="http://dbpedia.org/resource/BMP_file_format"/>
+</rdf:Description>
+
+</rdf:RDF>
