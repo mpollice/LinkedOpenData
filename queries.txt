@@ -1,0 +1,55 @@
+PREFIX rdf:<http://www.w3.org/1999/02/22-rdf-syntax-ns#> 
+PREFIX rdfs:<http://www.w3.org/2000/01/rdf-schema#> 
+PREFIX pronom:<http://pronom.nationalarchives.gov.uk/#>  
+PREFIX p2-additional:<http://p2-registry.ecs.soton.ac.uk/ontology/#>  
+PREFIX risk:<http://p2-registry.ecs.soton.ac.uk/pronom/risk_categories/#>
+PREFIX udfrs:<http://udfr.org/onto#>
+PREFIX owl:<http://www.w3.org/2002/07/owl#>
+
+
+-------------------------------------------------------------- 
+Finding applications capable of opening (rendering) PNG files.
+
+SELECT distinct ?sw  WHERE {  
+  ?format udfrs:IsSubtypeOf ?fmt.
+  ?process rdf:type udfrs:Process .
+  ?process udfrs:processType udfrs:Render .
+  ?process udfrs:inputFormat ?fmt .
+  ?process udfrs:software ?sw
+
+  SERVICE <http://udfr.org/ontowiki/sparql/> {
+      ?format a udfrs:FileFormat . 
+      ?format udfrs:signature ?signature . 
+      ?signature udfrs:signatureValue "png"
+  }
+}
+// very difficult to query tiff - too complicated relations - rules would be very helpful
+--------------------------------------------------------------------
+Look up rights' entries for files with extension "png"
+
+SELECT ?fmtname ?rights  WHERE {  
+  ?format pronom:rights ?rights
+
+  SERVICE <http://udfr.org/ontowiki/sparql/> {
+      ?format a udfrs:FileFormat . 
+      ?format rdfs:label ?fmtname .
+      ?format udfrs:signature ?signature . 
+      ?signature udfrs:signatureValue "png"
+  }
+}
+
+
+-------------------------------------------------------------------------
+Show risk levels for filetypes with extension "png" (not fully working - no risk levels of supertypes)
+
+SELECT ?fmtname ?risk WHERE {  
+  ?format ?a ?b .
+  ?b p2-additional:DefaultRiskLevel ?risk
+
+  SERVICE <http://udfr.org/ontowiki/sparql/> {
+      ?format a udfrs:FileFormat . 
+      ?format rdfs:label ?fmtname .
+      ?format udfrs:signature ?signature . 
+      ?signature udfrs:signatureValue "png"
+  }
+}
